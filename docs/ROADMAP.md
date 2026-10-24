@@ -7,10 +7,15 @@
 - Original fixtures, mutation tests, Frictionless spike and pinned MarkItDown run.
 - Installation, build and Windows/Linux CI configuration.
 
+## Completed: comparison and compatibility milestone (0.2.0)
+
+- Independent xlsx2csv/csvtomd pipeline on the same ten original workbook bytes.
+- Explicit output table selection and optional outer-pipe syntax.
+- Saved-run comparison with input fingerprints, consistency checks and regression exit codes.
+- Re-evaluation and fingerprint checks for all 20 archived runs.
+
 ## Next
 
-- Test a genuinely independent second converter; retain raw results.
-- Add explicit table selection for multi-table Markdown and version comparisons.
 - Design opt-in date/display-format and multiline policies with preserving controls.
 - Obtain authorized independent trials and document real findings with consent.
 - Publish a release/package after CI and clean-install validation.

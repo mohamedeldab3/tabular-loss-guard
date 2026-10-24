@@ -1,0 +1,68 @@
+{
+  "python": "3.11.4",
+  "versions": {
+    "xlsx2csv": "0.8.6",
+    "csvtomd": "0.3.0",
+    "openpyxl": "3.1.5"
+  },
+  "configuration": {
+    "xlsx2csv": {
+      "sheetid": 1,
+      "outputencoding": "utf-8"
+    },
+    "csvtomd": "md_table defaults"
+  },
+  "source_directory": "evidence/markitdown",
+  "cases": [
+    {
+      "case": "blank",
+      "status": "PASS",
+      "findings": 0
+    },
+    {
+      "case": "boolean",
+      "status": "FAIL",
+      "findings": 2
+    },
+    {
+      "case": "multiline",
+      "status": "UNVERIFIED",
+      "findings": 0
+    },
+    {
+      "case": "pipe",
+      "status": "UNVERIFIED",
+      "findings": 0
+    },
+    {
+      "case": "precision",
+      "status": "UNVERIFIED",
+      "findings": 0
+    },
+    {
+      "case": "row-associations",
+      "status": "PASS",
+      "findings": 0
+    },
+    {
+      "case": "saved-errors",
+      "status": "PASS",
+      "findings": 0
+    },
+    {
+      "case": "small-number",
+      "status": "UNVERIFIED",
+      "findings": 0
+    },
+    {
+      "case": "text-identifier",
+      "status": "PASS",
+      "findings": 0
+    },
+    {
+      "case": "unicode",
+      "status": "PASS",
+      "findings": 0
+    }
+  ]
+}

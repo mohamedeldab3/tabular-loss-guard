@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "tool_version": "0.2.0",
+  "table_index": 1,
+  "policy": "ordered-stored-values-v1",
+  "source_sha256": "10ee1118f32f1c56ffca7ec97470776d372816eae9a8c0849ef86f9b080abc87",
+  "markdown_sha256": "b43e348a175bd50ef433935251cbba418e8e603612cd52a470e4a7cbff9318b0",
+  "findings": [
+    {
+      "cell": "B2",
+      "row": 2,
+      "column": 2,
+      "kind": "text",
+      "expected": "True",
+      "observed": "TRUE",
+      "reason": "value_changed"
+    },
+    {
+      "cell": "B3",
+      "row": 3,
+      "column": 2,
+      "kind": "text",
+      "expected": "False",
+      "observed": "FALSE",
+      "reason": "value_changed"
+    }
+  ],
+  "sheet": "Sheet",
+  "status": "FAIL"
+}

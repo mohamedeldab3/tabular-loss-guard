@@ -1,0 +1,10 @@
+Case   |  Value
+-------|---------
+0      |  #DIV/0!
+1      |  #REF!
+2      |  #VALUE!
+3      |  #N/A
+4      |  #NUM!
+5      |  #NAME?
+6      |  #NULL!
+blank  |

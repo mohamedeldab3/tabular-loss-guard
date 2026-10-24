@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "tool_version": "0.2.0",
+  "table_index": 1,
+  "policy": "ordered-stored-values-v1",
+  "source_sha256": "6ff323593bdadef2c801023f50893cdbb35ae28e4aa3d95f44226bacbd525bf9",
+  "markdown_sha256": "3355aa2e30a1488bc229f058875de192e263c3df50888bb852a5af84bf4b5efa",
+  "findings": [],
+  "status": "UNVERIFIED",
+  "reason": "Expected one pipe table; use --table for multiple tables"
+}

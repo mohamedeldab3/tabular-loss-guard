@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tabular-loss-guard"
-version = "0.1.0"
+version = "0.2.0"
 description = "Check cell value preservation from XLSX or CSV to Markdown"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -12,13 +12,23 @@ license = "MIT"
 dependencies = ["openpyxl>=3.1.5,<4"]
 
 [project.optional-dependencies]
-test = ["pytest>=8,<10"]
+test = ["pytest>=8,<10", "ruff==0.17.2"]
 
 [project.scripts]
 tabular-loss-guard = "tabular_loss_guard.cli:main"
+tabular-loss-compare = "tabular_loss_guard.compare:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.ruff.lint.per-file-ignores]
+"tools/run_*.py" = ["E402"]

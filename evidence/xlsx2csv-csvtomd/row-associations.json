@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "tool_version": "0.2.0",
+  "table_index": 1,
+  "policy": "ordered-stored-values-v1",
+  "source_sha256": "1f779f39773a85e2756cd5683c278b5a355cddc464e73970da595144f3ec31d2",
+  "markdown_sha256": "0942e4fe52a136128a2e2cfd759542014250b8988fecdd12daa8e217745a1fb1",
+  "findings": [],
+  "sheet": "Sheet",
+  "status": "PASS"
+}

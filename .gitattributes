@@ -5,3 +5,4 @@
 *.xlsx binary
 evidence/markitdown/*.md -text
 evidence/markitdown/*.json -text
+evidence/xlsx2csv-csvtomd/** -text

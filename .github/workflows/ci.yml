@@ -15,7 +15,10 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - run: python -m pip install -e ".[test]" build
+      - run: python -m ruff check src tests tools
+      - run: python -m ruff format --check src tests tools
       - run: python -m pytest -q
+      - run: python tools/verify_evidence.py
       - run: tabular-loss-guard examples/source.csv examples/preserved.md
       - run: python -m build
       - run: python tools/verify_installed.py

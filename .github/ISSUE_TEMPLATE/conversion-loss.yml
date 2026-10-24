@@ -1,0 +1,24 @@
+name: Conversion loss or unsupported case
+description: Share an original minimal reproducer and expected cell values
+body:
+  - type: textarea
+    id: versions
+    attributes:
+      label: Versions and exact command
+      description: Include guard, converter and Python versions.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Expected and observed
+      description: Include source sheet/cell, stored value, output text and status.
+    validations:
+      required: true
+  - type: textarea
+    id: reproducer
+    attributes:
+      label: Minimal shareable reproducer
+      description: Use original synthetic data; remove secrets and personal information.
+    validations:
+      required: true
