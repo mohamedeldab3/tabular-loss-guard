@@ -1,0 +1,63 @@
+{
+  "python": "3.11.4",
+  "versions": {
+    "markitdown": "0.1.9",
+    "pandas": "3.1.0",
+    "openpyxl": "3.1.5"
+  },
+  "configuration": {
+    "enable_plugins": false
+  },
+  "cases": [
+    {
+      "case": "precision",
+      "status": "FAIL",
+      "findings": 1
+    },
+    {
+      "case": "small-number",
+      "status": "PASS",
+      "findings": 0
+    },
+    {
+      "case": "text-identifier",
+      "status": "FAIL",
+      "findings": 1
+    },
+    {
+      "case": "saved-errors",
+      "status": "FAIL",
+      "findings": 8
+    },
+    {
+      "case": "unicode",
+      "status": "PASS",
+      "findings": 0
+    },
+    {
+      "case": "pipe",
+      "status": "UNVERIFIED",
+      "findings": 0
+    },
+    {
+      "case": "multiline",
+      "status": "UNVERIFIED",
+      "findings": 0
+    },
+    {
+      "case": "blank",
+      "status": "FAIL",
+      "findings": 1
+    },
+    {
+      "case": "row-associations",
+      "status": "PASS",
+      "findings": 0
+    },
+    {
+      "case": "boolean",
+      "status": "PASS",
+      "findings": 0
+    }
+  ]
+}

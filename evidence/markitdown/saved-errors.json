@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "policy": "ordered-stored-values-v1",
+  "source_sha256": "249d72a0ceb28f2a68b08c40e3ae609eae6ce5a212d396f82bcb902d46637c54",
+  "markdown_sha256": "007ffa88963efdb2e653215cd4f32fadbc4cbc5c5fc557da281ad5d86acba731",
+  "findings": [
+    {
+      "cell": "B2",
+      "row": 2,
+      "column": 2,
+      "kind": "text",
+      "expected": "#DIV/0!",
+      "observed": "NaN",
+      "reason": "value_changed"
+    },
+    {
+      "cell": "B3",
+      "row": 3,
+      "column": 2,
+      "kind": "text",
+      "expected": "#REF!",
+      "observed": "NaN",
+      "reason": "value_changed"
+    },
+    {
+      "cell": "B4",
+      "row": 4,
+      "column": 2,
+      "kind": "text",
+      "expected": "#VALUE!",
+      "observed": "NaN",
+      "reason": "value_changed"
+    },
+    {
+      "cell": "B5",
+      "row": 5,
+      "column": 2,
+      "kind": "text",
+      "expected": "#N/A",
+      "observed": "NaN",
+      "reason": "value_changed"
+    },
+    {
+      "cell": "B6",
+      "row": 6,
+      "column": 2,
+      "kind": "text",
+      "expected": "#NUM!",
+      "observed": "NaN",
+      "reason": "value_changed"
+    },
+    {
+      "cell": "B7",
+      "row": 7,
+      "column": 2,
+      "kind": "text",
+      "expected": "#NAME?",
+      "observed": "NaN",
+      "reason": "value_changed"
+    },
+    {
+      "cell": "B8",
+      "row": 8,
+      "column": 2,
+      "kind": "text",
+      "expected": "#NULL!",
+      "observed": "NaN",
+      "reason": "value_changed"
+    },
+    {
+      "cell": "B9",
+      "row": 9,
+      "column": 2,
+      "kind": "blank",
+      "expected": "",
+      "observed": "NaN",
+      "reason": "value_changed"
+    }
+  ],
+  "sheet": "Sheet",
+  "status": "FAIL"
+}

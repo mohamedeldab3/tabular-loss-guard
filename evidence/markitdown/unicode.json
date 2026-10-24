@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "policy": "ordered-stored-values-v1",
+  "source_sha256": "b674f876a6c2d0aa90090b9f8b4876ce826b8b7709eae5e923a195fd27f44556",
+  "markdown_sha256": "908b7dab9ef3ab539e3d496b46c24afe3293291e91a5a2eac1c3482df7885b0c",
+  "findings": [],
+  "sheet": "Sheet",
+  "status": "PASS"
+}

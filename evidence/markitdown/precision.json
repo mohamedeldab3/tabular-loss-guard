@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "policy": "ordered-stored-values-v1",
+  "source_sha256": "6ff323593bdadef2c801023f50893cdbb35ae28e4aa3d95f44226bacbd525bf9",
+  "markdown_sha256": "92faf7931685f8a63f0832aaa1b4501b261d2e20ec7f95104eeb69371ac1559c",
+  "findings": [
+    {
+      "cell": "A2",
+      "row": 2,
+      "column": 1,
+      "kind": "number",
+      "expected": "123456789.123",
+      "observed": "1.234568e+08",
+      "reason": "value_changed"
+    }
+  ],
+  "sheet": "Sheet",
+  "status": "FAIL"
+}

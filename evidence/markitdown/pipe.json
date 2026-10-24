@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "policy": "ordered-stored-values-v1",
+  "source_sha256": "19be7ced6012b12bcb91bcaca246ab05b6b895cf784bcf85eb163576475197b9",
+  "markdown_sha256": "dd8b088fa9c801ca42fc1885783059d816d61df23a6b16be2d27305cfc1f99fa",
+  "findings": [],
+  "status": "UNVERIFIED",
+  "reason": "Ragged Markdown table"
+}

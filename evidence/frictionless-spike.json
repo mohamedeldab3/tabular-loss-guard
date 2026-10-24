@@ -1,0 +1,28 @@
+{
+  "frictionless_version": "5.21.0",
+  "openpyxl_version": "3.1.5",
+  "xlsx_rows": [
+    {
+      "Case": "error",
+      "Value": "#DIV/0!"
+    },
+    {
+      "Case": "blank",
+      "Value": null
+    }
+  ],
+  "xlsx_schema": {
+    "fields": [
+      {
+        "name": "Case",
+        "type": "string"
+      },
+      {
+        "name": "Value",
+        "type": "string"
+      }
+    ]
+  },
+  "markdown_resource_type": "text",
+  "markdown_error": "'ArticleResource' object has no attribute 'read_rows'"
+}

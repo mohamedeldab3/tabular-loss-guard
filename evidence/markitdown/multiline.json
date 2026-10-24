@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "policy": "ordered-stored-values-v1",
+  "source_sha256": "5519aa0f3cecd72d1c809a80f418266ff76e2b50bcd114826af81d6d5345da67",
+  "markdown_sha256": "494443693f6b74ac2e023dc6824bb8c4579cfee0305ab780638bc118bb4b9d4b",
+  "findings": [],
+  "sheet": "Sheet",
+  "status": "UNVERIFIED",
+  "reason": "Formulas, dates, multiline or edge-whitespace cells need an explicit policy"
+}
